@@ -1,4 +1,4 @@
-**This Repo is contains code required to deploy MediaWiki to Azure using Terraform and Azure devops. **
+## ***This Repo is contains code required to deploy MediaWiki to Azure using Terraform and Azure devops. ***
 
 Dockerfile used for image build is **DockerMediawiki**
 
