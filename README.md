@@ -28,3 +28,11 @@ Generate an execution plan.
 ### `terraform apply`
 
 Apply changes to Azure cloud.
+
+### Deploy Application using Azure Devops
+
+Create Azure Devops pipeline to build docker images and push image to Azure Container Registry. 
+Deploy Application from Azure Devops pipeline using new container image to previously deployed Azure Kubernetes Service. 
+
+**`Use DockerMediawiki to intially build container image.`**
+
