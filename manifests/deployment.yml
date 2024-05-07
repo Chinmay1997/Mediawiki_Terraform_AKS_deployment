@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: chinmaymediawiki 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: chinmaymediawiki
+  template:
+    metadata:
+      labels:
+        app: chinmaymediawiki 
+    spec:
+      containers:
+        - name: chinmaymediawiki 
+          image: mediawikiaks.azurecr.io/chinmaymediawiki
+          ports:
+          - containerPort: 80
