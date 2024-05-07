@@ -37,5 +37,6 @@ Deploy Application from Azure Devops pipeline using new container image to previ
 **`Use DockerMediawiki to intially build container image.`**
 
 **`Azure devops pipeline file is azure-pipelines.yml`**
+
 **/Manifests/ contains the Application deployment yaml files**
 
