@@ -14,7 +14,7 @@ variables:
   dockerRegistryServiceConnection: 'b90046ad-8cbb-443a-89aa-c9fcd22519fd'
   imageRepository: 'chinmaymediawikiterraformaksdeployment'
   containerRegistry: 'mediawikiaks.azurecr.io'
-  dockerfilePath: '**/DockerMediawiki'
+  dockerfilePath: '**/DockerfileMediaWiki'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'mediawikiaks1955ab6c-auth'
 
