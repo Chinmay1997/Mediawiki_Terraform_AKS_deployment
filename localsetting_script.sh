@@ -6,4 +6,4 @@ printf "<?php
   $wgDBname = $DBname;
   $wgDBuser = $DBuser;
   $wgDBpassword = $DBpassword;
-?>" | sudo tee LocalSettings.php
+?>" | sudo tee mysql_pw.php
