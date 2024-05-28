@@ -113,4 +113,10 @@ RUN set -eux; \
 	apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false $fetchDeps; \
 	rm -rf /var/lib/apt/lists/*
 
+#Configure Localsettings.php
+
+Add localsetting_script.sh
+RUN chmod 755 script.sh && ./localsetting_script.sh.sh
+
+
 CMD ["apache2-foreground"]
