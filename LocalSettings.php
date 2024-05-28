@@ -10,6 +10,9 @@
 # Further documentation for configuration settings may be found at:
 # http://www.mediawiki.org/wiki/Manual:Configuration_settings
 
+#Reference secure DB connection details
+require_once "/external_includes/mysql_pw.php";
+
 # Protect against web entry
 if ( !defined( 'MEDIAWIKI' ) ) {
 	exit;
